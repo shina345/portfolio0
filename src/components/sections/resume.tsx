@@ -12,6 +12,7 @@ import {
   Mail,
   Globe,
   Phone,
+  Github,
 } from "lucide-react";
 
 const RESUME_EXPERIENCE = [
@@ -292,9 +293,9 @@ export function ResumeSection() {
                     <MapPin size={13} style={{ color: "var(--accent-violet)" }} />
                     Nigeria · Available Remote Worldwide
                   </span>
-                  <a href="https://github.com/oyebamiji-shinaayomi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-white transition-colors">
-                    <Globe size={13} style={{ color: "var(--accent-green)" }} />
-                    github.com/oyebamiji-shinaayomi
+                  <a href="https://github.com/shina345" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-white transition-colors">
+                    <Github className="w-4 h-4 text-[var(--accent-green)]" />
+                    github.com/shina345
                   </a>
                 </div>
               </div>

@@ -11,7 +11,7 @@ const ContactForm3D = dynamic(
 );
 
 const SOCIALS = [
-  { icon: Github, label: "GitHub", href: "https://github.com/oyebamiji-shinaayomi", handle: "@oyebamiji-shinaayomi" },
+  { icon: Github, label: "GitHub", href: "https://github.com/shina345", handle: "@shina345" },
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/oyebamiji-shina-23a71b22b", handle: "Oyebamiji Shina" },
   { icon: XIcon, label: "X / Twitter", href: "https://x.com/yohann017", handle: "@yohann017" },
 ];

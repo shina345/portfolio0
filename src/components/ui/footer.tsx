@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Github, Linkedin, X as XIcon, Mail, Phone } from "lucide-react";
 
 const SOCIAL_LINKS = [
-  { icon: Github, href: "https://github.com/oyebamiji-shinaayomi", label: "GitHub" },
+  { icon: Github, href: "https://github.com/shina345", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/oyebamiji-shina-23a71b22b", label: "LinkedIn" },
   { icon: XIcon, href: "https://x.com/yohann017", label: "Twitter" },
   { icon: Mail, href: "mailto:oluwashinaayomi694@gmail.com", label: "Email" },
