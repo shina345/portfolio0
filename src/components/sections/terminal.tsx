@@ -197,7 +197,8 @@ export function CyberTerminal() {
           { text: "📧 EMAIL:    oluwashinaayomi694@gmail.com (Click to Mail)", type: "output", isHtml: true },
           { text: "📱 WHATSAPP: +234 805 586 5414 (Click to Chat)", type: "output", isHtml: true },
           { text: "🌐 GITHUB:   github.com/oyebamiji-shinaayomi", type: "output" },
-          { text: "🔗 LINKEDIN: linkedin.com/in/oyebamiji-shinaayomi", type: "output" },
+          { text: "🐦 TWITTER:  x.com/yohann017", type: "output" },
+          { text: "🔗 LINKEDIN: linkedin.com/in/oyebamiji-shina-23a71b22b", type: "output" },
           { text: "⚡ Quantum channel open. Ready for your message.", type: "success" }
         );
         break;

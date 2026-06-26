@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Code2, Briefcase, Mail } from "lucide-react";
+import { ArrowDown, Code2, Briefcase, Mail, X as XIcon } from "lucide-react";
 
 const ParticleField = dynamic(
   () => import("@/components/3d/particles").then((m) => m.ParticleField),
@@ -180,7 +180,8 @@ export function HeroSection() {
         >
           {[
             { icon: Code2, href: "https://github.com/oyebamiji-shinaayomi", label: "GitHub" },
-            { icon: Briefcase, href: "https://linkedin.com/in/oyebamiji-shinaayomi", label: "LinkedIn" },
+            { icon: XIcon, href: "https://x.com/yohann017", label: "X / Twitter" },
+            { icon: Briefcase, href: "https://www.linkedin.com/in/oyebamiji-shina-23a71b22b", label: "LinkedIn" },
             { icon: Mail, href: "mailto:oluwashinaayomi694@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a

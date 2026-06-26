@@ -12,8 +12,8 @@ const ContactForm3D = dynamic(
 
 const SOCIALS = [
   { icon: Github, label: "GitHub", href: "https://github.com/oyebamiji-shinaayomi", handle: "@oyebamiji-shinaayomi" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/oyebamiji-shinaayomi", handle: "Oyebamiji Shinaayomi" },
-  { icon: XIcon, label: "X / Twitter", href: "https://twitter.com/shinaayomi", handle: "@shinaayomi" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/oyebamiji-shina-23a71b22b", handle: "Oyebamiji Shina" },
+  { icon: XIcon, label: "X / Twitter", href: "https://x.com/yohann017", handle: "@yohann017" },
 ];
 
 export function ContactSection() {

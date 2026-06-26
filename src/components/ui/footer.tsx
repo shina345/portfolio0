@@ -5,8 +5,8 @@ import { Github, Linkedin, X as XIcon, Mail, Phone } from "lucide-react";
 
 const SOCIAL_LINKS = [
   { icon: Github, href: "https://github.com/oyebamiji-shinaayomi", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/oyebamiji-shinaayomi", label: "LinkedIn" },
-  { icon: XIcon, href: "https://twitter.com/shinaayomi", label: "Twitter" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/oyebamiji-shina-23a71b22b", label: "LinkedIn" },
+  { icon: XIcon, href: "https://x.com/yohann017", label: "Twitter" },
   { icon: Mail, href: "mailto:oluwashinaayomi694@gmail.com", label: "Email" },
   { icon: Phone, href: "https://wa.me/2348055865414", label: "WhatsApp" },
 ];
