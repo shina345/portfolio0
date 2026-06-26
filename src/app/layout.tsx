@@ -3,6 +3,7 @@ import "./globals.css";
 import { LenisProvider } from "@/components/providers/lenis-provider";
 import { CustomCursor } from "@/components/ui/custom-cursor";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { Preloader } from "@/components/3d/preloader";
 
 export const metadata: Metadata = {
   title: "Oyebamiji Shinaayomi — Full Stack & 3D Web Developer",
@@ -27,6 +28,7 @@ export default function RootLayout({
         <ThemeProvider>
           <LenisProvider>
             <CustomCursor />
+            <Preloader />
             <div className="scanline" />
             {children}
           </LenisProvider>
